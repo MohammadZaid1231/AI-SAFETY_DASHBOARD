@@ -4,6 +4,10 @@ A sleek frontend application for tracking and managing ⚠️ AI safety incident
 🧭 Overview
 This application provides a user-friendly interface to:
 
+🌐 Live Deployment
+Check out the live app here:
+👉 https://ai-safety-dashboard-peach.vercel.app/
+
 📋 View a list of AI safety incidents
 
 🔍 Filter and sort incidents by various criteria
