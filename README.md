@@ -1,64 +1,76 @@
-🚨 AI Safety Incident Dashboard
-A sleek frontend application for tracking and managing ⚠️ AI safety incidents.
+<h1>🚨 AI Safety Incident Dashboard</h1>
 
-🧭 Overview
-This application provides a user-friendly interface to:
+<p>A sleek frontend application for tracking and managing ⚠️ AI safety incidents.</p>
 
-🌐 Live Deployment
-Check out the live app here:
-👉 https://ai-safety-dashboard-peach.vercel.app/
+---
 
-📋 View a list of AI safety incidents
+<h2>🧭 Overview</h2>
 
-🔍 Filter and sort incidents by various criteria
+<p>This application provides a user-friendly interface to:</p>
 
-📄 View detailed information about each incident
+<ul>
+  <li>📋 View a list of AI safety incidents</li>
+  <li>🔍 Filter and sort incidents by various criteria</li>
+  <li>📄 View detailed information about each incident</li>
+  <li>➕ Add new incident reports with validation</li>
+</ul>
 
-➕ Add new incident reports with validation
+---
 
-🛠️ Technology Stack
-⚛️ Framework: Next.js 14 (App Router)
+<h2>🌐 Live Deployment</h2>
 
-🧑‍💻 Language: TypeScript
+<p>Check out the live app here: 👉 <a href="https://ai-safety-dashboard-peach.vercel.app/">https://ai-safety-dashboard-peach.vercel.app/</a></p>
 
-🧩 UI Components: shadcn/ui
+---
 
-✅ Form Handling: React Hook Form + Zod
+<h2>🛠️ Technology Stack</h2>
 
-🎨 Styling: Tailwind CSS
+<ul>
+  <li>⚛️ <strong>Framework</strong>: Next.js 14 (App Router)</li>
+  <li>🧑‍💻 <strong>Language</strong>: TypeScript</li>
+  <li>🧩 <strong>UI Components</strong>: shadcn/ui</li>
+  <li>✅ <strong>Form Handling</strong>: React Hook Form + Zod</li>
+  <li>🎨 <strong>Styling</strong>: Tailwind CSS</li>
+</ul>
 
-🚀 Getting Started
-✅ Prerequisites
-📦 Node.js v18.17.0 or later
+---
 
-📥 Installation
-Clone the repository:
+<h2>🚀 Getting Started</h2>
 
-bash
-Copy
-Edit
-git clone <https://github.com/MohammadZaid1231/AI-SAFETY_DASHBOARD>
+<h3>✅ Prerequisites</h3>
+
+<ul>
+  <li>📦 Node.js v18.17.0 or later</li>
+</ul>
+
+<h3>📥 Installation</h3>
+
+<ol>
+  <li>Clone the repository:</li>
+
+<pre><code>git clone https://github.com/MohammadZaid1231/AI-SAFETY_DASHBOARD
 cd ai-safety-incident-dashboard
-Install dependencies:
+</code></pre>
 
-bash
-Copy
-Edit
-npm install
-Start the development server:
+  <li>Install dependencies:</li>
 
-bash
-Copy
-Edit
-npm run dev
-Open your browser and visit:
-👉 http://localhost:3000
+<pre><code>npm install
+</code></pre>
 
-📁 Project Structure
-bash
-Copy
-Edit
-📦 ai-safety-incident-dashboard
+  <li>Start the development server:</li>
+
+<pre><code>npm run dev
+</code></pre>
+
+  <li>Open in your browser:</li>
+  <p>👉 <a href="http://localhost:3000">http://localhost:3000</a></p>
+</ol>
+
+---
+
+<h2>📁 Project Structure</h2>
+
+<pre><code>📦 ai-safety-incident-dashboard
 ├── app/                  # Next.js App Router structure
 ├── components/           # UI components
 │   ├── dashboard.tsx
@@ -68,34 +80,36 @@ Edit
 ├── lib/                  # Data and utility functions
 │   ├── data.ts
 │   └── utils.ts
-✨ Features
-📊 Incident Listing: Sortable, filterable table of incidents
+</code></pre>
 
-🕵️‍♂️ Incident Details: View complete information with a click
+---
 
-📝 Add Incidents: User-friendly form with validation
+<h2>✨ Features</h2>
 
-🎛️ Filtering & Search: By severity, title, or description
+<ul>
+  <li>📊 <strong>Incident Listing</strong>: Sortable, filterable table of incidents</li>
+  <li>🕵️‍♂️ <strong>Incident Details</strong>: View complete information with a click</li>
+  <li>📝 <strong>Add Incidents</strong>: User-friendly form with validation</li>
+  <li>🎛️ <strong>Filtering & Search</strong>: By severity, title, or description</li>
+  <li>🗂️ <strong>Sorting</strong>: Newest or oldest first</li>
+  <li>📱 <strong>Responsive Design</strong>: Seamless on desktop & mobile</li>
+</ul>
 
-🗂️ Sorting: Newest or oldest first
+---
 
-📱 Responsive Design: Seamless on desktop & mobile
+<h2>📦 Dependencies</h2>
 
-📦 Dependencies
-next
+<ul>
+  <li>next</li>
+  <li>react, react-dom</li>
+  <li>typescript</li>
+  <li>tailwindcss</li>
+  <li>class-variance-authority, clsx</li>
+  <li>lucide-react</li>
+  <li>react-hook-form, zod, @hookform/resolvers</li>
+  <li>@radix-ui/react-* (dialog, label, select, slot)</li>
+</ul>
 
-react, react-dom
+---
 
-typescript
-
-tailwindcss
-
-class-variance-authority, clsx
-
-lucide-react
-
-react-hook-form, zod, @hookform/resolvers
-
-@radix-ui/react-* (dialog, label, select, slot)
-
-👨‍💻 Made with 💙 by Mohammad Zaid
+<blockquote><strong>👨‍💻 Made with 💙 by Mohammad Zaid</strong></blockquote>
